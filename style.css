@@ -1,0 +1,50 @@
+/* Fondo suave */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Contenedor de preguntas */
+#question-container {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+/* Texto de la pregunta y mensaje de carga */
+#question {
+    color: #495057;  /* color Bootstrap gris oscuro suave */
+}
+
+/* Opciones */
+.btn-opcion {
+    background-color: #e9ecef;  /* gris claro Bootstrap */
+    border: 1px solid #d3d3d3;
+    color: #495057;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.btn-opcion:hover {
+    background-color: #dee2e6; /* gris más suave */
+}
+
+/* Correcto / Incorrecto */
+.correct {
+    background-color: #51cf66 !important; 
+    border-color: #51cf66 !important;
+    color: white !important;
+}
+
+.incorrect {
+    background-color: #ff8787 !important; 
+    border-color: #ff8787 !important;
+    color: white !important;
+}
+
+/* Al deshabilitar los botones */
+.disabled-btn {
+    pointer-events: none;
+    opacity: 0.6;
+}
